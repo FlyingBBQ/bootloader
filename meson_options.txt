@@ -1,0 +1,19 @@
+option('enable_test',
+  type : 'boolean',
+  value : true,
+  description : 'Enable tests')
+
+option('enable_docs',
+  type : 'boolean',
+  value : true,
+  description : 'Generate documentation with doxygen')
+
+option('enable_graphs',
+  type : 'boolean',
+  value : true,
+  description : 'Enable doxygen to generate graphs using dot')
+
+option('enable_coverage',
+  type : 'boolean',
+  value : true,
+  description : 'Generate coverage report using gcovr')
